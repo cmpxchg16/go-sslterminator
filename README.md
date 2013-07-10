@@ -2,7 +2,7 @@ Introduction
 ================
 
 Very simple (Thanks to Go!) SSL terminator proxy.
-Use it when you need to terminate the SSL sessions transparently as a MITM interceptor to read the plain raw data.
+Use it when you need to terminate SSL sessions transparently as a MITM interceptor to read the plain raw data.
 
 
 Usage
