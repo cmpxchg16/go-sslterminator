@@ -1,4 +1,31 @@
-go-sslterminator
+Introduction
 ================
 
-SSL terminator proxy
+Very simple (Thanks to Go!) SSL terminator proxy.
+Use it when you need to terminate the SSL sessions transparently as a MITM interceptor to read the plain raw data.
+
+
+Usage
+================
+
+1. run some http server on port 80
+2. go run go-sslterminator
+3. curl -k https://localhost:443/
+
+
+Help
+================
+
+go run go-sslterminator --help
+
+
+License
+================
+
+Licensed under the New BSD License See LICENSE for details.
+
+
+Authors
+================
+
+Uri Shamay (shamayuri@gmail.com)
