@@ -25,7 +25,7 @@ License
 Licensed under the New BSD License See LICENSE for details.
 
 
-Authors
+Author
 ================
 
 Uri Shamay (shamayuri@gmail.com)
