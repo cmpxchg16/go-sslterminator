@@ -9,7 +9,7 @@ Usage
 ================
 
 1. run some http server on port 80
-2. go run go-sslterminator
+2. go run go-sslterminator.go
 3. curl -k https://localhost:443/
 
 
