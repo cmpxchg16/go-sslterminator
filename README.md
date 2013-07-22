@@ -22,7 +22,7 @@ go run go-sslterminator --help
 License
 ================
 
-Licensed under the New BSD License See LICENSE for details.
+Licensed under the New BSD License.
 
 
 Author
