@@ -16,7 +16,7 @@ Usage
 Help
 ================
 
-go run go-sslterminator --help
+go run go-sslterminator.go --help
 
 
 License
