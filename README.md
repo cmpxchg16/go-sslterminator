@@ -1,7 +1,7 @@
 Introduction
 ================
 
-Very simple (Thanks to Go!) SSL terminator proxy.
+Very simple (Thanks to Go!) TCP SSL terminator proxy.
 Use it when you need to terminate SSL sessions transparently as a MITM interceptor to read the plain raw data.
 
 Usage
@@ -11,6 +11,8 @@ Usage
 2. go run go-sslterminator.go // assumed you have key.pem & cert.pem in `pwd`
 3. curl -v -k https://localhost:44300/
 
+Quick Start
+================
 If you want to do some quick test, you can use that commands:
 
 1. create SSL key & certificate for go-sslterminator
