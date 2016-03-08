@@ -15,25 +15,25 @@ Quick Start
 ================
 If you want to do some quick test, you can use that commands:
 
-1. create SSL key & certificate for go-sslterminator
+create SSL key & certificate for go-sslterminator
 
 ```
 openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes -subj "/C=GO/ST=Golang/L=Golang/O=Golang/OU=IT Department/CN=golang.org"
 ```
 
-2. run dummy http server
+run dummy http server
 
 ```
 while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; } | nc -l 8000; done
 ```
 	
-3. run go-sslterminator
+run go-sslterminator
 
 ```
 go run go-sslterminator.go
 ```
 	
-4. run dummy ssl client
+run dummy ssl client
 
 ```
 curl -v -k https://localhost:44300/
